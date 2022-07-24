@@ -21,9 +21,9 @@ while True:
     else:
         print(f'Operador {operador} inválido, digite outro operador (+, -, /, * )')
 
-    questionContinue = input('Deseja continuar? \n')
-    questionContinue = questionContinue.lower()
-    if questionContinue == 'y':
+    question_continue = input('Deseja continuar? \n')
+    question_continue = question_continue.lower()
+    if question_continue == 'y':
         continue
     else:
         break
